@@ -43,7 +43,7 @@ app.get('/dashboard', function(req, res) {
                     res.locals.moment = moment;
 
                     attacks.forEach(function(attack) {
-                        console.log(attack.timestamp)
+                        //console.log(attack.timestamp)
                     });
 
                     // render data to ejs
